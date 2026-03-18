@@ -1,12 +1,13 @@
 import java.util.Scanner;
-class reverse {
-    public  void  reverse(int a){
+class reverse  {
+    protected int d;
+    public  void   reverse(int a){
         int b= a;
-        int d =0;
+        d =0;
         while(b>0)
         { 
-            a=b%10;
-            d =d *10 + a; 
+            int e=b%10;
+            d =d *10 + e; 
             b= b/10;
         }
       System.out.println("reverse is"+d);
