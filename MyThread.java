@@ -22,7 +22,6 @@ public class MyThread implements Runnable
  // main method
  public static void main(String arg[])
  {
- // creating an object of the class MyThread2
  Runnable r1 = new MyThread();
  Thread th1 = new Thread(r1, "My new thread");
  th1.start();
