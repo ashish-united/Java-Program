@@ -1,9 +1,6 @@
 // This program copies the contents of one file to another file.
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 class Copyfile {
     public static void main(String[] args) {
