@@ -23,7 +23,7 @@ import java.util.ArrayList;
         for(Employee1 xy:list){
             System.out.println(xy.name);
             System.out.println(xy.id);
-             System.out.println(xy.age);
+            System.out.println(xy.age);
             
         }
     }
